@@ -11,6 +11,18 @@ Summary: pytest plugin to check FLAKE8 requirements
 
 
 
+Current build status
+====================
+
+Linux: [![Circle CI](https://circleci.com/gh/conda-forge/pytest-flake8-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/pytest-flake8-feedstock)
+OSX: [![TravisCI](https://travis-ci.org/conda-forge/pytest-flake8-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/pytest-flake8-feedstock)
+Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/pytest-flake8-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/pytest-flake8-feedstock/branch/master)
+
+Current release info
+====================
+Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/pytest-flake8/badges/version.svg)](https://anaconda.org/conda-forge/pytest-flake8)
+Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/pytest-flake8/badges/downloads.svg)](https://anaconda.org/conda-forge/pytest-flake8)
+
 Installing pytest-flake8
 ========================
 
@@ -31,7 +43,6 @@ It is possible to list all of the versions of `pytest-flake8` available on your 
 ```
 conda search pytest-flake8 --channel conda-forge
 ```
-
 
 
 About conda-forge
@@ -67,18 +78,6 @@ Terminology
 
 **conda-forge** - the place where the feedstock and smithy live and work to
                   produce the finished article (built conda distributions)
-
-Current build status
-====================
-
-Linux: [![Circle CI](https://circleci.com/gh/conda-forge/pytest-flake8-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/pytest-flake8-feedstock)
-OSX: [![TravisCI](https://travis-ci.org/conda-forge/pytest-flake8-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/pytest-flake8-feedstock)
-Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/pytest-flake8-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/pytest-flake8-feedstock/branch/master)
-
-Current release info
-====================
-Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/pytest-flake8/badges/version.svg)](https://anaconda.org/conda-forge/pytest-flake8)
-Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/pytest-flake8/badges/downloads.svg)](https://anaconda.org/conda-forge/pytest-flake8)
 
 
 Updating pytest-flake8-feedstock
