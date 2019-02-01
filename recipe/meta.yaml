@@ -1,5 +1,5 @@
 {% set name = "pytest-flake8" %}
-{% set version = "1.0.3" %}
+{% set version = "1.0.4" %}
 
 package:
   name: {{ name|lower }}
@@ -8,10 +8,10 @@ package:
 source:
   fn: {{ name }}-{{ version }}.tar.gz
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: b2c71fb6d469bae076a01c43d4a83485d740db6a8a00bad77e0657ed035e98d4
+  sha256: 4d225c13e787471502ff94409dcf6f7927049b2ec251c63b764a4b17447b60c0
 
 build:
-  number: 1000
+  number: 0
   script: "{{ PYTHON }} -m pip install . --no-deps --ignore-installed --no-cache-dir -vvv"
 
 requirements:
@@ -25,7 +25,7 @@ requirements:
     - configparser  # [py27]
     - enum34  # [py27]
     - flake8 >=3.5
-    - pytest >=3.2
+    - pytest >=3.5
 
 test:
   imports:
