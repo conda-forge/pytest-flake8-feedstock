@@ -25,7 +25,7 @@ requirements:
     - configparser  # [py27]
     - enum34  # [py27]
     - flake8 >=3.5
-    - pytest >=3.2
+    - pytest >=3.5
 
 test:
   imports:
