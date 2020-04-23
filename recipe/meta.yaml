@@ -1,5 +1,5 @@
 {% set name = "pytest-flake8" %}
-{% set version = "1.0.4" %}
+{% set version = "1.0.5" %}
 
 package:
   name: {{ name|lower }}
@@ -8,11 +8,12 @@ package:
 source:
   fn: {{ name }}-{{ version }}.tar.gz
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 4d225c13e787471502ff94409dcf6f7927049b2ec251c63b764a4b17447b60c0
+  sha256: d85efaafbdb9580791cfa8671799dd40d482fc30bd4476c1ca5efd661e751333
 
 build:
-  number: 1
-  script: "{{ PYTHON }} -m pip install . --no-deps --ignore-installed --no-cache-dir -vvv"
+  number: 0
+  noarch: python
+  script: {{ PYTHON }} -m pip install . --no-deps -vv
 
 requirements:
   host:
@@ -22,8 +23,6 @@ requirements:
   run:
     - python
     - setuptools
-    - configparser  # [py27]
-    - enum34  # [py27]
     - flake8 >=3.5
     - pytest >=3.5
 
@@ -35,10 +34,10 @@ test:
 
 about:
   home: https://github.com/tholo/pytest-flake8
-  license: BSD 2-Clause
+  license: BSD-2-Clause
   license_family: BSD
   license_file: LICENSE
-  summary: 'pytest plugin to check FLAKE8 requirements'
+  summary: pytest plugin to check FLAKE8 requirements
 
 extra:
   recipe-maintainers:
