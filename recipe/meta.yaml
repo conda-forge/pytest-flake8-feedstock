@@ -12,6 +12,7 @@ source:
 
 build:
   number: 0
+  noarch: python
   script: {{ PYTHON }} -m pip install . --no-deps --ignore-installed --no-cache-dir -vvv
 
 requirements:
@@ -22,8 +23,6 @@ requirements:
   run:
     - python
     - setuptools
-    - configparser  # [py27]
-    - enum34  # [py27]
     - flake8 >=3.5
     - pytest >=3.5
 
