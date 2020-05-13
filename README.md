@@ -3,7 +3,7 @@ About pytest-flake8
 
 Home: https://github.com/tholo/pytest-flake8
 
-Package license: BSD 2-Clause
+Package license: BSD-2-Clause
 
 Feedstock license: BSD 3-Clause
 
