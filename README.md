@@ -5,11 +5,9 @@ Home: https://github.com/tholo/pytest-flake8
 
 Package license: BSD-2-Clause
 
-Feedstock license: BSD 3-Clause
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/pytest-flake8-feedstock/blob/master/LICENSE.txt)
 
 Summary: pytest plugin to check FLAKE8 requirements
-
-
 
 Current build status
 ====================
