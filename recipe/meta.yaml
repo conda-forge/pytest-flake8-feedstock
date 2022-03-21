@@ -11,20 +11,19 @@ source:
   sha256: ba4f243de3cb4c2486ed9e70752c80dd4b636f7ccb27d4eba763c35ed0cd316e
 
 build:
-  number: 0
+  number: 1
   noarch: python
   script: {{ PYTHON }} -m pip install . --no-deps -vv
 
 requirements:
   host:
-    - python >=3.5
+    - python >=3.7
     - setuptools
     - pip
   run:
-    - python >=3.5
-    - setuptools
-    - flake8 >=3.5
-    - pytest >=3.5
+    - python >=3.7
+    - flake8 >=4.0
+    - pytest >=7.0
 
 test:
   imports:
