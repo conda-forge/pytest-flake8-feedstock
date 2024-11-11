@@ -3,9 +3,9 @@ About pytest-flake8-feedstock
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/pytest-flake8-feedstock/blob/main/LICENSE.txt)
 
-Home: https://github.com/tholo/pytest-flake8
+Home: https://github.com/coherent-oss/pytest-flake8
 
-Package license: BSD-2-Clause
+Package license: MIT
 
 Summary: pytest plugin to check FLAKE8 requirements
 

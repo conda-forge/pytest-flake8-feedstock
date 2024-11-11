@@ -11,17 +11,18 @@ source:
   sha256: 88fb35562ce32d915c6ba41ef0d5e1cfcdd8ff884a32b7d46aa99fc77a3d1fe6
 
 build:
-  number: 0
+  number: 1
   noarch: python
   script: {{ PYTHON }} -m pip install . --no-deps -vv
 
 requirements:
   host:
-    - python >=3.7
-    - setuptools
+    - python >=3.9
+    - setuptools >=61.2
+    - setuptools_scm >=3.4.1
     - pip
   run:
-    - python >=3.7
+    - python >=3.9
     - flake8 >=4.0
     - pytest >=7.0
 
@@ -32,9 +33,9 @@ test:
     - pytest --flake8 --help
 
 about:
-  home: https://github.com/tholo/pytest-flake8
-  license: BSD-2-Clause
-  license_family: BSD
+  home: https://github.com/coherent-oss/pytest-flake8
+  license: MIT
+  license_family: MIT
   license_file: LICENSE
   summary: pytest plugin to check FLAKE8 requirements
 
