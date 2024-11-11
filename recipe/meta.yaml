@@ -32,9 +32,9 @@ test:
     - pytest --flake8 --help
 
 about:
-  home: https://github.com/tholo/pytest-flake8
-  license: BSD-2-Clause
-  license_family: BSD
+  home: https://github.com/coherent-oss/pytest-flake8
+  license: MIT
+  license_family: MIT
   license_file: LICENSE
   summary: pytest plugin to check FLAKE8 requirements
 
